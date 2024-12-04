@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sarma>
+    <network>
+        <server_address>https://example.lan</server_address>
+        <access_key>__________secret__________________</access_key>
+        <controller_MAC>6B868ACE2A9A</controller_MAC>
+        <licence>_some_string_</licence>
+    </network>
+    <reading>
+        <id>______unique___string__3__</id>
+        <sample_n>874</sample_n>
+        <value>11.44</value>
+        <raw>11.4375</raw>
+    </reading>
+    <status>
+        <statid>______unique___string__3__</statid>
+        <statval>_some_string_</statval>
+    </status>
+    <reading>
+        <id>______unique___string__4__</id>
+        <sample_n>874</sample_n>
+        <value>11.31</value>
+        <raw>11.3125</raw>
+    </reading>
+    <status>
+        <statid>______unique___string__4__</statid>
+        <statval>_some_string_</statval>
+    </status>
+</sarma>

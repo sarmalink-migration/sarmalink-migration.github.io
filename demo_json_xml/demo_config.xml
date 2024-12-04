@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sarma>
+    <network>
+        <server_address>https://example.lan</server_address>
+        <access_key>__________secret__________________</access_key>
+        <controller_MAC>6B868ACE2A9A</controller_MAC>
+        <licence>_some_string_</licence>
+    </network>
+    <device>
+        <dev_id>______unique___string__3__</dev_id>
+        <dev_name>First probe</dev_name>
+        <dev_type>Sensor</dev_type>
+        <dev_model>ds18b20</dev_model>
+        <update_interval>60</update_interval>
+        <units>°C</units>
+        <zonename>Europe/Riga</zonename>
+    </device>
+    <device>
+        <dev_id>______unique___string__4__</dev_id>
+        <dev_name>Second probe</dev_name>
+        <dev_type>Sensor</dev_type>
+        <dev_model>ds18b20</dev_model>
+        <update_interval>60</update_interval>
+        <units>°C</units>
+        <zonename>Europe/Riga</zonename>
+    </device>
+</sarma>

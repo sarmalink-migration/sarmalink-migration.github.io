@@ -1,0 +1,37 @@
+{
+    "system": {
+        "uuid": "2da27827-ff8c-45e8-97c3-acf312841834",
+        "version": "1.234",
+        "clock": 1732082863,
+        "uptime": 1080
+    },
+    "network": {
+        "samp_n": 18,
+        "controller_MAC": "EDD0ED86F0E9",
+        "access_key": "__________secret__________________",
+        "license": "_some_string_",
+        "update_interval": 60,
+        "zonename": "Europe/Riga"
+    },
+    "devices": [
+        {
+            "dev_id": "______unique___string__1__",
+            "dev_type": "Sensor",
+            "dev_model": "SHT20t",
+            "dev_name": "Temperature",
+            "raw": 14.43321,
+            "value": 14.43,
+            "units": "°C",
+            "error": 0
+        },
+        {
+            "dev_id": "______unique___string__2__",
+            "dev_type": "Sensor",
+            "dev_model": "SHT20h",
+            "dev_name": "Humidity",
+            "value": 55.1,
+            "units": "%RH",
+            "error": 0
+        }
+    ]
+}
