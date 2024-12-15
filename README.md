@@ -11,3 +11,18 @@ http://your.hygrom.ip.addr/reading.json
 The files contain unique device identifiers and readings that can be retrieved and parsed at regular time intervals.
 
 New updates on SarmaLink migration will be posted here.
+
+### update (15.12.2024)
+
+A minimal **PHP script** is now available for receiving data from existing **SarmaLink** devices:
+
+[https://sarmalink-migration.github.io/html_mini/index.php](https://sarmalink-migration.github.io/html_mini/index.php)
+
+- **Requirements**: `php-xml` module
+- **Compatibility**: Runs on various HTTP servers (e.g., Apache on a VM)
+- **Security Note**: No built-in authentication — **do not** host publicly. Use **VPN** or a **secure tunnel** for remote access.
+
+A fully self-hosted **SarmaLink** replacement is currently under development by a third party.
+
+**For questions, contact**: [sarmalink.migration@gmail.com](mailto:sarmalink.migration@gmail.com)
+
